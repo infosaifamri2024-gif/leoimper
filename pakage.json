@@ -1,0 +1,23 @@
+{
+  "name": "leo-club-imperial-sfax",
+  "version": "1.0.0",
+  "description": "Site web officiel du Leo Club Imperial Sfax",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["leo", "club", "sfax", "tunisia"],
+  "author": "Leo Club Imperial Sfax",
+  "license": "MIT"
+}
